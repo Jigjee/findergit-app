@@ -21,10 +21,10 @@ function App() {
                 <Route
                   path="/"
                   element={
-                    <>
+                    <div>
                       <Alert />
                       <Home />
-                    </>
+                    </div>
                   }
                 />
                 <Route path="/about" element={<About />} />
